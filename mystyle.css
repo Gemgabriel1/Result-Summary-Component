@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+.attribution { 
+font-size: 11px; 
+text-align: center; 
+}
+
+.attribution a { 
+color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 620px) {
+    .box, .pa, .center, .h1, .scan, .smallbox, .button {
+      width: 100%;
+    }
+}
+
+* {
+font-family:Hanken Grotesk, sans-serif;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+display: grid;
+place-content: center;
+background-color:hsl(0, 0%, 100%);
+}
+  
+.box {
+float: left;
+width:350px;
+height:450px;
+box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.1);
+margin-top: 25vh;
+}
+
+.pa{
+text-align: center;
+font-size: 18px;
+color: hsl(0, 0%, 100%);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.center{
+background-color: hsla(256, 72%, 46%, 1);
+width: 55%;
+height: 35%;
+border-radius: 70%;
+margin-left: auto;
+margin-right: auto;
+}
+      
+.h1{
+text-align: center;
+font-size: 60px;
+color: hsl(0, 0%, 100%);
+font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}    
+      
+.scan {
+color: hsl(220, 15%, 55%);
+font-size: 18px;
+text-align: center;
+}
+
+.smallbox {
+width: 300px;
+height:50px;
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.button {
+color: white;
+width: 300px;
+height:50px;
+border-radius: 30px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-size: 18px;
+cursor: pointer;
+background-color: rgb(61, 58, 87);
+}
